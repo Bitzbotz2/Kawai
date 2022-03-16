@@ -1,5 +1,5 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['http://wa.me/6285715590172]
+global.linkGC = ['https://chat.whatsapp.com/DqgwZ6W3Ck7Gi3nHUQRZxg']
 global.Owner = {
   // use the phone number with the country code, for example Indonesia '62' America '1' etc
   '6285715590172': { // put your number here
