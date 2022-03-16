@@ -12,7 +12,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
   conn.reply(m.chat, `
 ╠═〘 ${package.name} 〙 ═
 ╠➥ *Versi:* ${package.version}
-╠➥ *HomePage:* ${(package.homepage ? package.homepage.url || package.homepage : '[unknown github url]')}
+╠➥ *HomePage:* https://github.com/Danangws/Kawaii_botz
 ╠➥ *Issue:* ${package.bugs.url}
 ╠➥ *Prefix:* ' ${usedPrefix} '
 ╠➥ *Menu:* ${usedPrefix}menu
@@ -20,12 +20,12 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Total user:* ${totalreg} *user*
 ╠➥ *Uptime:* ${uptime}
 ║
-╠═〘 DONASI 〙 ═
-╠➥ Gopay: 085713964963
-╠➥ Indosat: 085713964963
+╠═〘 SEWA 〙 ═
+╠➥ Gopay: 085715590172
+╠➥ Indosat: 085715590172
 ║
-╠═ Request? ${package.bugs.url}
-╠═ Official Group *${conn.user.name}* :
+╠═ Request? wa.me/6285715590172
+╠═ facebook : *D'anang wijaya saputra* :
 ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
 ║
 ║${readMore}
@@ -41,9 +41,9 @@ ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n�
 ║   *ANDA DI DATABASE KAMI*
 ║ 
 ║ 
-╠═ ©2021 ${package.name}
-╠═ Script original by Nurutomo
-╠═〘 METRO BOT 〙 ═
+╠═ ©2022 kawaii_botz™✓
+╠═ thx to : D'anang.w.s
+╠═〘 KAWAII_BOTZ™√ 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
