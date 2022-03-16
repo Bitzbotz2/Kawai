@@ -31,7 +31,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
+╭─「 KAWAII_BOTZ™✓ 」
 │ %ucapan, %name!
 │
 │ Tanggal: *%week %weton, %date*
@@ -41,15 +41,15 @@ const defaultMenu = {
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
-│ %github
+│ https://github.com/Danangws/Kawaii_botz
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+*powered by : ©Danangws*
+${'```KAWAII_BOTZ™√```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
