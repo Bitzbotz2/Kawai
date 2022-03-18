@@ -12,8 +12,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
   conn.reply(m.chat, `
 ╠═〘 ${package.name} 〙 ═
 ╠➥ *Versi:* ${package.version}
-╠➥ *HomePage:* https://github.com/Danangws/Kawaii_botz
-╠➥ *Issue:* ${package.bugs.url}
+╠➥ *HomePage:* wa.me/6285715590172
+╠➥ *Fakegroup:* https://chat.whatsapp.com/JjI08e4HVMUCDjz4DzFPkD
 ╠➥ *Prefix:* ' ${usedPrefix} '
 ╠➥ *Menu:* ${usedPrefix}menu
 ╠➥ *Ping:* ${neww - old} *ms*
@@ -26,7 +26,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║
 ╠═ Request? wa.me/6285715590172
 ╠═ facebook : *D'anang wijaya saputra* :
-${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
+
 ║
 ║${readMore}
 ╠═〘 SYARAT & KETENTUAN Games-wabot 〙 ═
