@@ -50,7 +50,7 @@ const defaultMenu = {
   after: `
 *powered by : ©Danangws*
 ${'```KAWAII_BOTZ™√```'}
-https://chat.whatsapp.com/JjI08e4HVMUCDjz4DzFPkD
+
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
