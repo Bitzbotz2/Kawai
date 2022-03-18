@@ -1,4 +1,4 @@
-let handler = function (m) {
+let config = function (m) {
   // this.sendContact(m.chat, '6281515860089', 'Nurutomo', m)
   let contacts = []
   for (let owner of Object.entries(global.Owner).filter(v => v[1].isCreator)) {
