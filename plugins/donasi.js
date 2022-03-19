@@ -6,7 +6,7 @@ let handler = async m => m.reply(`
 ╭─「 Hubungi 」
 │ > Ingin donasi? Wa.me/6285715590172
 ╰────
-https://chat.whatsapp.com/JjI08e4HVMUCDjz4DzFPkD
+https://chat.whatsapp.com/I93WyQqfnA9KgZ6L6XdFPq
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
