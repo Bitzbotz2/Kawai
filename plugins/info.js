@@ -10,10 +10,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
   await m.reply('Wait Kakak!!')
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
-╠═〘 ${package.name} 〙 ═
+╠═〘 *Kawaii_botz™√* 〙 ═
 ╠➥ *Versi:* ${package.version}
-╠➥ *HomePage:* wa.me/6285715590172
-╠➥ *Fakegroup:* https://chat.whatsapp.com/JjI08e4HVMUCDjz4DzFPkD
+╠➥ *Owner:* wa.me/6285715590172
+╠➥ *Fakegroup:* https://chat.whatsapp.com/I93WyQqfnA9KgZ6L6XdFPq
 ╠➥ *Prefix:* ' ${usedPrefix} '
 ╠➥ *Menu:* ${usedPrefix}menu
 ╠➥ *Ping:* ${neww - old} *ms*
@@ -29,7 +29,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 ║
 ║${readMore}
-╠═〘 SYARAT & KETENTUAN Games-wabot 〙 ═
+╠═〘 RULES *_Kawaii_botz™√_* 〙 ═
 ╠➥ *KAMI TIDAK BERTANGGUNG*
 ║   *JAWAB ATAS PENYALAH*
 ║   *GUNAAN BOT*
