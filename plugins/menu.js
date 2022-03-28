@@ -38,8 +38,8 @@ const defaultMenu = {
 │ Tanggal Islam: *%dateIslamic*
 │ Waktu: *%time*
 │
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
+│ Uptime: *23:15:46*
+│ Database: 0 off 34
 │ Github:
 │ https://github.com/Danangws/Kawaii_botz
 ╰────
