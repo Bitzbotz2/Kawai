@@ -13,7 +13,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠═〘 *Kawaii_botz™√* 〙 ═
 ╠➥ *Versi:* ${package.version}
 ╠➥ *Owner:* wa.me/6285715590172(d'anang.w.s)
-╠➥ *Fakegroup:* https://chat.whatsapp.com/I93WyQqfnA9KgZ6L6XdFPq
+╠➥ *Github:* https://github.com/Danangws/Kawaii_botz.git
 ╠➥ *Prefix:* ' ${usedPrefix} '
 ╠➥ *Menu:* ${usedPrefix}menu
 ╠➥ *Ping:* 102*ms*
