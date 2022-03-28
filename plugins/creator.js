@@ -1,4 +1,4 @@
-let config = function (m) {
+let handler = function (m) {
   // this.sendContact(m.chat, '6281515860089', 'Nurutomo', m)
   let contacts = []
   for (let owner of Object.entries(global.Owner).filter(v => v[1].isCreator)) {
@@ -8,8 +8,8 @@ let config = function (m) {
   this.sendContactArray(m.chat, contacts, m)
 }
 handler.help = ['owner', 'creator']
-handler.tags = ['info']
+handler.tags = ['owner']
 
 handler.command = /^(owner|creator)$/i
 
-module.exports = config
+module.exports = handler
