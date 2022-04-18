@@ -10,10 +10,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
   await m.reply('Wait Kakak!!')
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
-╠═〘 *Kawaii_botz™√* 〙 ═
+╠═〘 *Lisabotz* 〙 ═
 ╠➥ *Versi:* ${package.version}
-╠➥ *Owner:* wa.me/6285715590172(d'anang.w.s)
-╠➥ *Github:* https://github.com/Danangws/Kawaii_botz.git
+╠➥ *Owner:* wa.me/6281998425782(Lolichan)
+╠➥ *Github:* https://github.com/Bitzbotz
 ╠➥ *Prefix:* ' ${usedPrefix} '
 ╠➥ *Menu:* ${usedPrefix}menu
 ╠➥ *Ping:* 102*ms*
@@ -21,15 +21,15 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* 23:15:46
 ║
 ╠═〘 SEWA 〙 ═
-╠➥ Gopay: 085715590172
-╠➥ Indosat: 085715590172
+╠➥ Gopay: 
+╠➥ pulsa axis: 081998425782
 ║
-╠═ Request? wa.me/6285715590172
-╠═ facebook : *D'anang wijaya saputra* :
+╠═ Request? wa.me/6281998425782
+╠═ facebook : *gk ada* :
 
 ║
 ║${readMore}
-╠═〘 RULES *_Kawaii_botz™√_* 〙 ═
+╠═〘 RULES *_Lisabotz_* 〙 ═
 ╠➥ *KAMI TIDAK BERTANGGUNG*
 ║   *JAWAB ATAS PENYALAH*
 ║   *GUNAAN BOT*
@@ -41,9 +41,9 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║   *ANDA DI DATABASE KAMI*
 ║ 
 ║ 
-╠═ ©2022 kawaii_botz™✓
-╠═ thx to : D'anang.w.s
-╠═〘 KAWAII_BOTZ™√ 〙 ═
+╠═ ©2022 Lisabotz
+╠═ thx to : Lolichan
+╠═〘 Lisabotz 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
