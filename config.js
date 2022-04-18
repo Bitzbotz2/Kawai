@@ -1,30 +1,30 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/DqgwZ6W3Ck7Gi3nHUQRZxg']
+global.linkGC = ['https://chat.whatsapp.com/H0yvjknkMjlGNkpregwFiq']
 global.Owner = {
   // use the phone number with the country code, for example Indonesia '62' America '1' etc
-  '6285715590172': { // put your number here
-    name: 'Danangws™√',
+  '6281998425782': { // put your number here
+    name: 'Lolichan',
     isDev: false, // if true this number will send if bot have bug and developer mode true
     isReport: false, // if true this number will send if user use command /report or /join
     isCreator: true // if true this number will send if user use command /owner or /creator
   },
-  '6285715590172': { // put your number here
+  '6281998425782': { // put your number here
     isDev: true, // if true this number will send if bot have bug and developer mode true
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: false // if true this number will send if user use command /owner or /creator
   },
-  '6285715590172': { // put your number here
-    name: 'Danangws',
+  '6281998425782': { // put your number here
+    name: 'Lolichan',
     isDev: false, // if true this number will send if bot have bug and developer mode true
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: false // if true this number will send if user use command /owner or /creator
   },
-  '6285715590172': {
+  '6281998425782': {
     isReport: true // if true this number will send if user use command /report or /join
   },
-  '6285715590172': {} // ignore if you don't want anything, like name dll
+  '6281998425782': {} // ignore if you don't want anything, like name dll
 }
-global.mods = ['6285715590172'] // Want some help?
+global.mods = ['6281998425782'] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -52,8 +52,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'wa.me/6285715590172'
-global.author = '©Danangws™✓'
+global.packname = 'Lisabotz'
+global.author = '©Lolichan'
 
 global.multiplier = 39 // The higher, The harder levelup
 
